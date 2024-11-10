@@ -1,3 +1,3 @@
 # Portfolio
 
-https://lamkatie.github.io/portfolio/
+View portfolio here --> https://lamkatie.github.io/portfolio/
