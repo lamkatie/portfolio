@@ -9,12 +9,12 @@
 
   <!-- Put your site title here -->
   <title>
-    Katie Lam | Data Science Major at Northwestern University 
+    Katie Lam | Data Science & Cognitive Science Major at Northwestern University 
   </title>
 
-  <meta name="description" content="Second-year undergrad at Northwestern University majoring in Data Science and minoring in General Music.">
+  <meta name="description" content="Second-year undergrad at Northwestern University majoring in Data Science and Cognitive Science, and minoring in General Music.">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Python R Data Analysis" />
+  <meta name="keywords" content="Python R SQL" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -43,7 +43,7 @@
           <span>Katie Lam</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>Sophomore Data Science Major at Northwestern University</p>
+        <p>Data Science & Cognitive Science Major at Northwestern University</p>
         <a href="#contact" class="btn btn--pink">Contact</a>
       </div>
     </div>
@@ -58,67 +58,7 @@
         <h2>My Work</h2>
         <div class="work__boxes">
 
-          <!-- SNAP -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Social Network Analysis on Reddit Hyperlink Activity</h3>
-              <p>
-                Team Project for COMM_ST 352 Social Network Analysis. </p>
-                <p>Performed EDA, Network Centrality Overviews, Sentiment Analysis, and Exponential Random Graph Models (ERGM) simulations on Reddit Hyperlink Data to better understand Reddit moderation needs for cases of subreddit level harassment campaigns, otherwise known as raids.</p>
-                
-                <p>Datasets used:</p>
-                <p>(1) TSV file of reddit hyperlinks between source and target subreddits, sourced from Stanford University’s Social Network Analysis Project(SNAP) Dataset Archive. Network data is directed, weighted, and attributed.</p>
-                <p>(2) CSV file on every subreddit and their subscriber count. Sourced from Kaggle.</p>
-              <ul class="work__list">
-                <li>RStudio</li>
-                <li> <a href="https://cran.r-project.org/web/packages/ergm/index.html"> 'ergm' package from CRAN</a> </li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://docs.google.com/document/d/1HOOTCIIhFTZ7IjBJ9XWLyB2jFW0QgMH_JXGbU5hf5s4/edit?usp=sharing" target="_blank" class="link__text">
-                  View Project Paper <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/onestaraskreddit 2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <!-- SPOTIFY API. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Data Visualizations in R: Beabadoobee Spotify Overview</h3>
-              <p>
-                Accessed Spotify API in R through wrapper package
-                <a href="https://github.com/charlie86/spotifyr">
-                  spotifyr.
-                </a>
-              </p>
-              <p>Developped Shiny app wep-page dashboard for key visualizations on Beabadoobee's audio features and release specs by album.</p>
-              <p>Published dashboard on shinyapps.io.</p>
-              <ul class="work__list">
-                <li>RStudio (tidyverse::ggplot2)</li>
-                <li><a href="https://github.com/charlie86/spotifyr">
-                  spotifyr
-                </a></li>
-                <li>Spotify API</li>
-                <li>Shiny app</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://vs8i5a-katie-lam.shinyapps.io/spotify-app/" class="link__text">
-                  View Dashboard <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/bea.png" class="work__image" alt="Project 2" />
-            </div>
-          </div>
-          
+          <!-- DISC -->
           <div class="work__box">
             <div class="work__text">
               <h3>Develop + Innovate for Social Change (DISC NU) DISCover Program</h3>
@@ -139,6 +79,85 @@
             </div>
           </div>
 
+          <!-- Classification Models -->
+          <div style="margin-bottom:300px;">
+            <div class="work__image-box">
+              <img src="./images/logregfigure.png" class="work__image" alt="Project 4" />
+            </div>
+            <div class="work__text" style="margin-top:30px";>
+              <h3>Evaluating Sociophysical Predictors of Depression in Adults</h3>
+              <p> Performed Predictive and Inferential Analysis on both linear and unregularized models and nonlinear (inclusion of second-order polynomial and interaction terms) and Lasso regularized Logistic Regression models (statsmodels and sklearn). Evaluated performance using accuracy, recall, and ROC curve metrics. </p>
+              <p> Submitted formal report with EDA, Conclusions, & Recommendations for Stakeholders. </p>
+              <p>Datasets used:</p>
+                <p>(1) CSV file of people ages 18 and above living in South Asia with their ratings of academic and financial pressure and dietary/sleep habits. Sourced from Kaggle. </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li><code>statsmodels</code> package</li>
+                <li><code>sklearn</code> package</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- SPOTIFY API. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Data Visualizations in R: Beabadoobee Spotify Overview</h3>
+              <p>
+                Accessed Spotify API in R through wrapper package
+                <a href="https://github.com/charlie86/spotifyr">
+                  <code>spotifyr</code>.
+                </a>
+              </p>
+              <p>Developped Shiny app wep-page dashboard for key visualizations on Beabadoobee's audio features and release specs by album.</p>
+              <p>Published dashboard on shinyapps.io.</p>
+              <ul class="work__list">
+                <li>RStudio (tidyverse::ggplot2)</li>
+                <li><a href="https://github.com/charlie86/spotifyr">
+                  <code>spotifyr</code>
+                </a></li>
+                <li>Spotify API</li>
+                <li>Shiny app</li>
+              </ul>
+
+              <div class="work__links">
+                  <p> ** Dashboard was created before Spotify restricted public access to Web API.</p>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/bea.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <!-- SNAP -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Social Network Analysis on Reddit Hyperlink Activity</h3>
+              <p>
+                Team Project for COMM_ST 352 Social Network Analysis. </p>
+                <p>Performed EDA, Network Centrality Overviews, Sentiment Analysis, and Exponential Random Graph Models (ERGM) simulations on Reddit Hyperlink Data to better understand Reddit moderation needs for cases of subreddit level harassment campaigns, otherwise known as raids.</p>
+                
+                <p>Datasets used:</p>
+                <p>(1) TSV file of reddit hyperlinks between source and target subreddits, sourced from Stanford University’s Social Network Analysis Project(SNAP) Dataset Archive. Network data is directed, weighted, and attributed.</p>
+                <p>(2) CSV file on every subreddit and their subscriber count. Sourced from Kaggle.</p>
+              <ul class="work__list">
+                <li>RStudio</li>
+                <li> <a href="https://cran.r-project.org/web/packages/ergm/index.html"> <code>ergm</code> package from CRAN</a> </li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://docs.google.com/document/d/1HOOTCIIhFTZ7IjBJ9XWLyB2jFW0QgMH_JXGbU5hf5s4/edit?usp=sharing" target="_blank" class="link__text">
+                  View Project Paper <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/onestaraskreddit 2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+          
           </div>
         </div>
       </div>
@@ -156,7 +175,7 @@
           </div>
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
-            <p> GPA: 3.91/4.00, Dean’s List 4 of 4 quarters </p>
+            <p> GPA: 3.92/4.00, Dean’s List 5 of 5 quarters </p>
             <p> Activities: Alto I in Northwestern University Singers; Co-founder and External President of the NU 'Ukulele Club; VP of Programming for NU Nights</p>
             <p> Interests/Hobbies: IM Volleyball; Singing; Cultural cuisine </p>
             <!-- Provide a link to your resume -->
@@ -199,11 +218,6 @@
           </a>
         </li>
       </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Original template developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
 
     </div>
   </footer>
